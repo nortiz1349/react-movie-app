@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Movie.module.css";
 import { IMG_BASE_URL } from "../Config";
-import PropTypes from "prop-types";
 
 function Credits({ name, profile_path, character }) {
 
