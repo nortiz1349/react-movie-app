@@ -21,7 +21,7 @@ function Nav() {
     <>
       <LinkToHome>
         <div className="home">
-          <Link to={`/`}>Home</Link>
+          <Link to={`/react-movie-app`}>Home</Link>
         </div>
       </LinkToHome>
     </>
@@ -34,8 +34,8 @@ function App() {
     <BrowserRouter>
       <Nav />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/movie/:id" element={<Detail />} />
+        <Route path="/react-movie-app" element={<Home />} />
+        <Route path="/react-movie-app/movie/:id" element={<Detail />} />
       </Routes>
     </BrowserRouter>
   );

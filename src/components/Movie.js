@@ -6,17 +6,16 @@ import { Link } from "react-router-dom";
 function Movie({ title, id, year, vote, posterImg }) {
   return (
     <div className={styles.movie}>
-
-        <Link to={`/movie/${id}`}>
+      <Link to={`/react-movie-app/movie/${id}`}>
         <img
           src={`${IMG_BASE_URL}w500${posterImg}`}
           alt={title}
           className={styles.movie__img}
         />
-        </Link>
-      
+      </Link>
+
       <h2 className={styles.movie__title}>
-        <Link to={`/movie/${id}`}>{title}</Link>
+        <Link to={`/react-movie-app/movie/${id}`}>{title}</Link>
       </h2>
 
       <p className={styles.movie__year}>{year}</p>

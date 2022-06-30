@@ -2,7 +2,6 @@ import React from "react";
 import { IMG_BASE_URL } from "../Config";
 import styled from "styled-components";
 import styles from "./Movie.module.css";
-import { useState, useEffect } from "react";
 
 const MovieInfo = styled.div`
   .container {
