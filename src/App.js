@@ -11,7 +11,7 @@ const LinkToHome = styled.div`
     text-decoration: none;
   }
   .home a {
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: 500;
     text-decoration: none;
     color: black;

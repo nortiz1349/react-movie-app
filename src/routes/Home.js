@@ -51,7 +51,7 @@ const HomeStyle = styled.div`
   }
 
   .category_title {
-    font-size: 30px;
+    font-size: 2rem;
     padding: 20px 0px 0px 35px;
   }
 
