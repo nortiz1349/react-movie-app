@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 const LinkToHome = styled.div`
   .home {
-    padding: 30px 60px 30px 60px;
+    padding: 20px 0px 0px 33px;
 
     text-decoration: none;
   }

@@ -27,7 +27,7 @@ const HomeStyle = styled.div`
     display: grid;
     grid-template-columns: repeat(20, minmax(250px, 1fr));
     grid-gap: 30px;
-    padding: 50px;
+    padding: 20px 0px 50px 20px;
     max-width: 90%;
     padding-top: 1rem;
     overflow-x: scroll;
@@ -52,7 +52,7 @@ const HomeStyle = styled.div`
 
   .category_title {
     font-size: 30px;
-    padding: 30px 60px 0px 60px;
+    padding: 20px 0px 0px 35px;
   }
 
   @media screen and (max-width: 0) {
