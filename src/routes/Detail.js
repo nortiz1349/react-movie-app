@@ -34,6 +34,7 @@ function Detail() {
         </div>
       ) : (
           <MovieDetail
+            id={movieDetail.id}
             backdrop_path={movieDetail.backdrop_path}
             title={movieDetail.title}
             poster_path={movieDetail.poster_path}

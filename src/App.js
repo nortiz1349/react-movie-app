@@ -6,13 +6,15 @@ import styled from "styled-components";
 
 const LinkToHome = styled.div`
   .home {
-    font-size: 30px;
     padding: 30px 60px 30px 60px;
-    font-weight: lighter;
+
     text-decoration: none;
   }
   .home a {
+    font-size: 35px;
+    font-weight: 500;
     text-decoration: none;
+    color: black;
   }
 `;
 
